@@ -143,32 +143,6 @@ streamlit run app.py
 | LOF | 0.672 | 0.02 | 0.09 | 0.03 |
 | DBSCAN | 0.621 | 0.00 | 1.00 | 0.00 |
 
-##  Project Structure
-
-```
-loyalty-fraud-detection/
-│
-├── data/
-│   └── creditcard.csv
-│
-├── notebooks/
-│   └── anomaly_detection_analysis.ipynb
-│
-├── src/
-│   ├── data_preprocessing.py
-│   ├── feature_engineering.py
-│   ├── model_training.py
-│   └── evaluation.py
-│
-├── models/
-│   └── rf_model.pkl
-│
-├── app.py
-├── requirements.txt
-├── README.md
-└── LICENSE
-```
-
 ##  Results
 
 ### Key Findings
@@ -185,7 +159,7 @@ loyalty-fraud-detection/
 
 ##  Deployment
 
-### Streamlit Web App
+### Streamlit Web App - in progress
 The project includes a user-friendly web interface that allows:
 - Upload transaction datasets (CSV format)
 - Real-time fraud prediction
