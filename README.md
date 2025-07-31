@@ -198,12 +198,11 @@ black src/
 flake8 src/
 ```
 
-
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
 - [ ] Real-time streaming data processing
 - [ ] Deep learning models (Autoencoders, LSTM)
