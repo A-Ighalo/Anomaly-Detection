@@ -1,4 +1,4 @@
-# 🕵️‍♂️ Loyalty Program Fraud Detection System
+#  Loyalty Program Fraud Detection System
 
 A comprehensive anomaly detection system designed to identify fraudulent activities in loyalty and promotion programs using machine learning techniques.
 
@@ -15,7 +15,7 @@ A comprehensive anomaly detection system designed to identify fraudulent activit
 - [Contributing](#contributing)
 - [License](#license)
 
-## 🎯 Overview
+##  Overview
 
 This project implements both **supervised** and **unsupervised** machine learning approaches to detect anomalous patterns in credit card transactions that could indicate loyalty program abuse. The system is designed to help financial institutions prevent fraud while maintaining customer trust.
 
@@ -25,7 +25,7 @@ This project implements both **supervised** and **unsupervised** machine learnin
 - Reduce financial losses from fraudulent transactions
 - Automate fraud detection processes
 
-## 📊 Dataset
+##  Dataset
 
 - **Source**: Credit Card Fraud Detection Dataset (Kaggle)
 - **Size**: 284,807 transactions over 2 days
@@ -33,7 +33,7 @@ This project implements both **supervised** and **unsupervised** machine learnin
 - **Target**: Binary classification (0 = Normal, 1 = Fraud)
 - **Class Distribution**: Highly imbalanced (0.17% fraudulent transactions)
 
-## ✨ Features
+##  Features
 
 ### Data Engineering
 - **Reward Points Simulation**: 5% cashback calculation
@@ -55,7 +55,7 @@ This project implements both **supervised** and **unsupervised** machine learnin
 - **One-Class SVM** for boundary-based detection
 - **DBSCAN** for clustering-based anomalies
 
-## 🚀 Installation
+##  Installation
 
 ### Prerequisites
 ```bash
@@ -88,7 +88,7 @@ joblib>=1.0.0
 kagglehub>=0.1.0
 ```
 
-## 💻 Usage
+##  Usage
 
 ### 1. Data Preparation
 ```python
@@ -126,12 +126,12 @@ rf = RandomForestClassifier(class_weight='balanced', random_state=42)
 rf.fit(X_train, y_train)
 ```
 
-### 4. Web Application
+### 4. Web Application - in progress
 ```bash
 streamlit run app.py
 ```
 
-## 📈 Model Performance
+##  Model Performance
 
 | Model | ROC AUC | Precision | Recall | F1-Score |
 |-------|---------|-----------|--------|----------|
@@ -143,7 +143,7 @@ streamlit run app.py
 | LOF | 0.672 | 0.02 | 0.09 | 0.03 |
 | DBSCAN | 0.621 | 0.00 | 1.00 | 0.00 |
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 loyalty-fraud-detection/
@@ -169,7 +169,7 @@ loyalty-fraud-detection/
 └── LICENSE
 ```
 
-## 🔍 Results
+##  Results
 
 ### Key Findings
 - **Peak Transaction Time**: 9 PM shows highest transaction volume
@@ -183,7 +183,7 @@ loyalty-fraud-detection/
 - ROC curve comparisons
 - Fraud detection by time periods
 
-## 🌐 Deployment
+##  Deployment
 
 ### Streamlit Web App
 The project includes a user-friendly web interface that allows:
@@ -198,12 +198,12 @@ streamlit run app.py
 ```
 
 ### Features
-- 📁 File upload for transaction data
-- 🔍 Fraud detection results
-- 📊 Prediction probabilities
-- 💾 Downloadable results
+-  File upload for transaction data
+-  Fraud detection results
+-  Prediction probabilities
+-  Downloadable results
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
@@ -224,26 +224,10 @@ black src/
 flake8 src/
 ```
 
-## 📚 References
-
-- [Transaction Data Simulator - Fraud Detection Handbook](https://fraud-detection-handbook.github.io/fraud-detection-handbook/)
-- [Scikit-learn Clustering Documentation](https://scikit-learn.org/stable/modules/clustering.html)
-- [Anomaly Detection Techniques](https://towardsdatascience.com/anomaly-detection-techniques-comprehensive-guide)
 
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-
-## 🙏 Acknowledgments
-
-- Kyanon Digital for the internship opportunity
-- Kaggle for providing the credit card fraud dataset
-- The open-source community for the amazing tools and libraries
-
----
-
-⭐ If you found this project helpful, please give it a star!
 
 ## 🔮 Future Enhancements
 
