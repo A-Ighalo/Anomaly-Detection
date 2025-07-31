@@ -2,7 +2,7 @@
 
 A comprehensive anomaly detection system designed to identify fraudulent activities in loyalty and promotion programs using machine learning techniques.
 
-## 📋 Table of Contents
+##  Table of Contents
 - [Overview](#overview)
 - [Dataset](#dataset)
 - [Features](#features)
